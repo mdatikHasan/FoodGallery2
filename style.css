@@ -1,0 +1,117 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+/* top-banner */
+
+.top-banner{
+
+}
+.top-banner{
+    display: flex;
+    margin-left: 5%;
+}
+.half-width{
+    width: 50%;
+    padding-top: 7%;
+}
+.half-width img{
+    width: 90%;
+    margin-left: 10%;
+}
+.top-banner h1{
+    font-size: 35px;
+    font-weight: 600;
+    color: rgb(83, 83, 83);
+}
+.top-banner span{
+    color: rgb(255, 99, 71);
+}
+.top-banner p{
+    font-size: 18px;
+    font-weight: 400px;
+    color: rgb(87, 87, 87);
+}
+
+.top-banner a{
+    text-decoration: none;
+    background-image: linear-gradient(orange, tomato);
+    padding: 10px 20px;
+    border-radius: 30px;
+    color: white;
+    font-weight: bold;
+}
+/* About section with Atik Hasan */
+
+.about{
+    display: flex;
+    background-image: url(img/7.png);
+}
+
+.half-width-about{
+    width: 50%;
+    padding-right: 10%;
+}
+
+
+.about img{
+    width: 50%;
+    padding-left: 20%;
+    padding-top: 10%;
+}
+.half-width-about h1{
+    margin-top: 15%;
+    color: rgb(87, 87, 87);
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.half-width-about p{
+    color: rgb(87, 87, 87);
+    text-align: justify;
+    margin-bottom: 5%;
+}
+
+.about-link{
+    text-decoration: none;
+    background-image: linear-gradient(orange, tomato);
+    padding: 10px 20px;
+    border-radius: 30px;
+    color: white;
+    font-weight: bold;
+    
+}
+
+/* Our Foodies */
+
+.our-foodies{
+    text-align: center;
+}
+
+.our-foodies h1{
+    color: rgb(87, 87, 87);
+    font-size: 30px;
+}
+.foodies-p{
+    color: rgb(87, 87, 87);
+    font-size: 20px;
+    padding: 0 13%;
+}
+
+.foodies-flex{
+    display: flex;
+}
+
+.foodies-item{
+    box-shadow: 0px 10px 21px rgb(37, 37, 37);
+    margin-left: 3%;
+    border-radius: 10px;
+    padding: 40px;
+}
+.foodies{
+    margin-right: 3%;
+}
+.foodies-item img{
+    width: 300px;
+    border-radius: 10px;
+}
